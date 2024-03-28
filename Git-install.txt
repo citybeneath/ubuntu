@@ -1,0 +1,9 @@
+- Open Terminal
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt --yes update
+sudo apt --yes install git
+git config --global init.defaultBranch main
+git config --global user.name "the-name-you-want-your-gits-to-show"
+git config --global user.email example@email.com
+git config --global core.editor "code --wait"
+
